@@ -1,0 +1,34 @@
+# Laravel files
+app/config/app.php
+app/config/auth.php 
+app/config/cache.php
+app/config/database.php 
+app/config/mail.php
+app/config/remote.php 
+app/config/session.php
+bootstrap/compiled.php 
+bootstrap/start.php
+local/
+storage/*.key
+public/storage
+public/hot
+vendor/
+
+# Front files
+node_modules
+bower_components
+
+# Homestead files
+Homestead.yaml
+Homestead.json
+
+# Dot files
+.DS_Store
+.sqlite
+.env.*.php
+.env.php
+.env
+
+# Random files
+CONTRIBUTING.md
+Thumbs.db
