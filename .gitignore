@@ -12,6 +12,7 @@ local/
 storage/*.key
 public/storage
 public/hot
+public
 vendor/
 
 # Front files
