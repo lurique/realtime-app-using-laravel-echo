@@ -14126,6 +14126,12 @@ var app = new Vue({
 		addMessage: function addMessage(message) {
 			this.messages.push(message);
 		}
+	},
+
+	created: function created() {
+		axios.get('/messages').then(function (response) {
+			console.log(response);
+		});
 	}
 });
 
