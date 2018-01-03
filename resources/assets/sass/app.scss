@@ -8,7 +8,41 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Global
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.btn,
+input {
+	border-radius: 0;
+}
+
+input {
+	border: none;
+	border-top: 1px solid $gray;
+	padding: 15px;
+}
+
+// Chat composer
+.chat-composer {
+	margin-top: 30px;
+}
+
+.card.card-default {
+	padding: 0;
+}
+
+// Chat Message
+.message {
+	padding: 15px;
+
+	&:nth-child(odd) {
+		background: $gray;
+	}
+}
+
+.message:nth-child(odd) {
+	background: $gray;
 }

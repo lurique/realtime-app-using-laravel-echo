@@ -9895,3 +9895,34 @@ a.text-dark:hover {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.btn,
+input {
+  border-radius: 0;
+}
+
+input {
+  border: none;
+  border-top: 1px solid #f1f1f1;
+  padding: 15px;
+}
+
+.chat-composer {
+  margin-top: 30px;
+}
+
+.card.card-default {
+  padding: 0;
+}
+
+.message {
+  padding: 15px;
+}
+
+.message:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+.message:nth-child(odd) {
+  background: #f1f1f1;
+}
+
